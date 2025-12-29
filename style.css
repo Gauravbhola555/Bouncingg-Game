@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#gameArea {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #333;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#basket {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 80px;
+    height: 20px;
+    background-color: #ff5722;
+    transform: translateX(-50%);
+}
+
+#fallingObject {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #4caf50;
+    border-radius: 50%;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+}
